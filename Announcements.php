@@ -161,7 +161,7 @@
 </footer>
 
 <script>
-  fetch('http://localhost:3000/anns')
+  fetch('https://math-dep-server.herokuapp.com/anns')
           .then(res => res.json())
           .then(anns => {
             console.log('anns are ',anns);
